@@ -1,1 +1,1 @@
-https://mrhtd.github.io/valima/
+https://invite-card.github.io/valima/
