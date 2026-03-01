@@ -14,16 +14,16 @@ window.addEventListener('load', function () {
 });
 
 // --- 2. MASTER INITIALIZATION FUNCTION ---
-startCountdown();
 // This holds all the logic that should run AFTER the loader is gone
 function initWeddingSite() {
-
+    
     const flowers = document.querySelectorAll('.corner-flower');
     flowers.forEach(flower => {
         flower.classList.add('start-bloom');
     });
-
+    
     // A. Start Countdown
+    startCountdown();
 
     // B. Start Petals
     startPetalEffect();
